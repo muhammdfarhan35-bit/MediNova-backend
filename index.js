@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: 'http://muhammadfarhan35-bit.github.io' }));
 app.use(express.json());
 
 // Connect to MongoDB
@@ -32,3 +32,4 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
