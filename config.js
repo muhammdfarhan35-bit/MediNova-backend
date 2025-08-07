@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://abdullahmumtazfsd:7Ni6hppFACGKNWqC@medinova.xrzrbvi.mongodb.net/?retryWrites=true&w=majority&appName=medinova');
+    await mongoose.connect('mongodb+srv://muhammdfarhan35:KwaDkS3Fo5dsBXm6@cluster0.w0cuhlt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
     console.log('✅ MongoDB connected successfully');
   } catch (error) {
     console.error('❌ MongoDB connection error:', error.message);
@@ -13,3 +13,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
